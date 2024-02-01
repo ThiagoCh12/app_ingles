@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppIngles.MainPage" Title="Inglês para Crianças" BackgroundColor="LimeGreen">
+
+    <StackLayout>
+        <Image Source="logoapp"/>
+        <Button Text="CORES"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                x:Name="btnCores"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Margin="10,0"
+                Clicked="btnCores_Clicked"/>
+        <Button Text="NUMEROS"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                x:Name="btnNumeros"
+                BackgroundColor="Brown"
+                Margin="10,0"
+                Clicked="btnNumeros_Clicked"/>
+        <Button Text="FAMILIA"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                x:Name="btnFamilia"
+                BackgroundColor="Green"
+                Margin="10,0"
+                Clicked="btnFamilia_Clicked"/>
+        <Button Text="SAIR"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                x:Name="btnSair"
+                BackgroundColor="Red"
+                Margin="10,0"
+                Clicked="btnSair_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
